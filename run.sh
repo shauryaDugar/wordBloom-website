@@ -1,5 +1,5 @@
 #!/bin/bash
-app="docker.wordBloom"
+app="docker.wordbloom"
 docker build -t ${app} .
 docker run -d -p 80:80 \
   --name=${app} \
