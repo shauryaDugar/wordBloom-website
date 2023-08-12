@@ -4,20 +4,22 @@
     <div class="text-black mb-4">
         <div class="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-2xl bg-white">
             <div class="flex items-center justify-between">
-                <span class="text-sm text-gray-600">Time</span>
+                <span class="text-sm text-gray-600">13th August, 2023</span>
             </div>
             <div class="mt-3">
                 <a rel="noopener noreferrer" href="#"
-                    class="text-2xl font-bold hover:underline">Title</a>
-                <p class="mt-2">Content</p>
+                    class="text-2xl font-bold hover:underline">Welcome to Word Bloom's Website!</a>
+                <p class="mt-2">Hello everyone, I take immense pleasure in welcoming you all to Word Bloom's website. Can you believe that it has already been four years since Word Bloom's inception, and what an amazing journey it has been! We have made so many memories, have had so many experiences, learnt so much together! It is time to take our relationship one step further, and we plan to do that with this website. This website will serve as a gallery, a resource and as a blog space for students and parents. We will also be sharing information with you through the means of this website. Today is a special occassion for Word Bloom as it marks the day when you took a big leap in your own creative journey by following and taking part in Word Bloom's events. I want you all to remember that it takes hard work to get there but once you do, you feel much better about yourself and your journey. To my young and budding students, I would like to say that be expressive, be energetic and have an appetite to learn. To my mature students, I would like you to remember that age is just a number! You have it well within you to learn and achieve heights and trust me when I say this, because it took me a while to get started too! So let's look forward to more fun filled classes, workshops and field trips, of course.</p>
+                <br>
+                <a rel="noopener noreferrer" href="{{url_for('gallery')}}" class="hover:underline dark:text-violet-400">Take a tour of our Gallery!</a>
             </div>
             <div class="flex items-center justify-between mt-4">
-                <a rel="noopener noreferrer" href="#" class="hover:underline dark:text-violet-400">Read more</a>
+                <a rel="noopener noreferrer" href="#" class="hover:underline dark:text-violet-400"></a>
                 <div>
                     <a rel="noopener noreferrer" href="#" class="flex items-center">
-                        <img src="#" alt="avatar"
+                        <img src="{{url_for('static', filename='profile_pics/reshma.jpg')}}" alt="avatar"
                             class="object-cover w-10 h-10 mx-4 rounded-full dark:bg-gray-500">
-                        <span class="hover:underline dark:text-gray-400">Post Author</span>
+                        <span class="hover:underline dark:text-gray-400">Reshma</span>
                     </a>
                 </div>
             </div>
